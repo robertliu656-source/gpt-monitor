@@ -1,8 +1,16 @@
 # GPT Monitor
 
-Read new local Codex replies aloud on macOS. An independent, unofficial OpenClose accessibility tool.
+Read new local Codex replies aloud. An independent, unofficial OpenClose accessibility tool for macOS and Windows.
 
 **Version 0.2.0 · Apple Silicon · English and 简体中文**
+
+## Windows edition
+
+The Windows reader is in [windows/](windows/). It uses installed Windows SAPI voices, with English and Chinese presets. No API key is needed. **Ctrl+Alt+/** pauses/resumes and **Ctrl+Alt+Q** exits. See [English Windows instructions](windows/README.en.txt) or [Windows 中文说明](windows/README.zh.txt).
+
+Windows binary publication is pending the GitHub Windows build and smoke tests. This is a new implementation based on the shared parser, not a recovered copy of the historical Windows 0.5.3 application. Physical audio and accessibility testing on Windows user devices remains outstanding. A cloud CI build alone does not establish those results.
+
+Developers on Windows can install windows/requirements.txt and run windows/build.ps1 en or windows/build.ps1 zh using Python 3.13. The Build Windows workflow generates x64 ZIP packages and tests SAPI and hotkey registration.
 
 - [English user guide](README.en.txt)
 - [中文使用说明](README.txt)
