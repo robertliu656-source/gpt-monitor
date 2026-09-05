@@ -1,0 +1,17 @@
+# GPT Monitor 0.2.0 — English preset. Copy to the runtime config to switch an existing installation.
+language=en-US
+voice=en-US-AriaNeural
+edge_rate=+65%
+edge_volume=+30%
+local_voice=Samantha
+local_wpm=220
+local_volume=0.7
+hotkeys_enabled=false
+master_hotkey=CTRL+CMD+M
+low_latency=true
+announce_reply_start=false
+prefer_latest_reply=true
+translate_english=false
+alert_enabled=true
+alert_speak=true
+stuck_backstop_enabled=false

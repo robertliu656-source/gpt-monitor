@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+backups/
+archive/
+cache/
+*.log
+*.jsonl
+.env*
+IMPLEMENTATION_PROMPT.txt
+TEST_REPORT.md
