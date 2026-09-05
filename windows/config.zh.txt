@@ -1,0 +1,4 @@
+language=zh-CN
+voice_name=
+rate=0
+volume=70

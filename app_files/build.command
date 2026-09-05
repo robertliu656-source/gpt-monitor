@@ -84,6 +84,8 @@ if [[ "$edition" == "zh" ]]; then
   /usr/bin/ditto "$project_dir/使用说明.txt" "$staging/使用说明.txt"
 fi
 /usr/bin/ditto "$project_dir/LICENSE" "$staging/LICENSE"
+/usr/bin/ditto "$project_dir/THIRD_PARTY_NOTICES.md" "$staging/THIRD_PARTY_NOTICES.md"
+"$venv_python" "$project_dir/app_files/collect_licenses.py" "$staging/Third-Party-Licenses"
 
 test -x "$staging/GPT Monitor.app/Contents/MacOS/GPT Monitor"
 /usr/bin/plutil -lint "$staging/GPT Monitor.app/Contents/Info.plist"

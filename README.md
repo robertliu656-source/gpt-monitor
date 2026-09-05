@@ -15,6 +15,10 @@ The English edition uses **Samantha, rate 220** and English application prompts.
 
 ## Install
 
+**[Download the Mac apps / 下载 Mac 应用](https://github.com/robertliu656-source/gpt-monitor/releases/latest)**
+
+Choose the **English** or **Chinese** ZIP for Apple Silicon, unzip it, then move GPT Monitor.app into your Applications folder. Install one language edition at a time. The first release is unsigned by Developer ID and not notarized; see the release notes for first-open instructions.
+
 Build a package using the steps below, then place GPT Monitor.app in ~/Applications and double-click it. The packaged app includes Python. First launch configures a per-user login agent; the default shortcut needs no Input Monitoring permission.
 
 Packages are ad-hoc signed, not Developer ID signed or notarized. Follow macOS's per-app confirmation if needed; do not disable Gatekeeper. Validated on Apple Silicon with macOS 26.6-series systems. Intel and other macOS versions are unverified.

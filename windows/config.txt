@@ -1,0 +1,4 @@
+language=en-US
+voice_name=
+rate=0
+volume=70
